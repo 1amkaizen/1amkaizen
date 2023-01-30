@@ -7,13 +7,13 @@
 </div>
 
 <div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/zaenal-arifin-5a2266229/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  <a href="https://railway.app?referralCode=v-jhtw">
+    <img src="https://img.shields.io/badge/Railway-blue?style=for-the-badge&logo=railway&logoColor=white" alt="Railway Badge"/>
   </a>
-  <a href="your-youtube-URL">
-    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  <a href="https://replit.com/@1amkaizen">
+    <img src="https://img.shields.io/badge/Replit-red?style=for-the-badge&logo=replit&logoColor=white" alt="Youtube Badge"/>
   </a>
-  <a href="your-twitter-URL">
+  <a href="https://twitter.com/1amkaizen">
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
  
