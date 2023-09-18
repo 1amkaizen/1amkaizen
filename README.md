@@ -51,9 +51,11 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/gitlab/gitlab-original-wordmark.svg" title="Gitlab" **alt="Gitlab" width="40" height="40"/>
 </div>
 
-
-
 ---
 
 ### :fire: My Stats :
 [![GitHub Streak](https://github-readme-streak-stats-pied.vercel.app?user=1amkaizen&theme=dark&background=000000)](https://git.io/streak-stats)
+
+<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
+<p align="center">Copyright &copy; 2023-present <a href="https://github.com/1amkaizen" target="_blank">1amkaizen</a>
+<p align="center"><a href="https://github.com/1amkaizen/telegoGPT/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a></p>
