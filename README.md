@@ -61,7 +61,7 @@
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=1amkaizen&theme=radical)![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=1amkaizen&theme=radical&utcOffset=8)![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=1amkaizen&theme=radical)![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=1amkaizen&theme=radical)
 
-
+![LeetCode Stats](https://leetcode.card.workers.dev/1amkaizen?theme=dark&font=milonga&extension=activity)
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center">Copyright &copy; 2023-present <a href="https://github.com/1amkaizen" target="_blank">1amkaizen</a>
