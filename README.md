@@ -6,7 +6,6 @@
 </div>
 
 
-
 <!--![Header](./github-header-image.png)-->
 
 <div id="header" align="center">
@@ -32,7 +31,9 @@
 <div align="center">
 <p><img src="https://www.codewars.com/users/1amkaizen/badges/large" alt="Codewars Stats Card"></p>
 </div>
-
+<p align="center"> 
+  <a href="https://www.buymeacoffee.com/1amkaiz3n"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="50" width="210" alt="1amkaizen" /></a>
+</p>
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
