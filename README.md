@@ -29,11 +29,9 @@
 <div align="center">
  <img  src="https://komarev.com/ghpvc/?username=1amkaizen&style=flat-square&color=blue" alt=""/>
 </div>
-<h1 align="center">
-  hey there iam developer
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>
-
+<div align="center">
+<p><img src="https://www.codewars.com/users/1amkaizen/badges/large" alt="Codewars Stats Card"></p>
+</div>
 
 ---
 
@@ -52,9 +50,23 @@
 </div>
 
 ---
+![GitHub metrics](https://metrics.lecoq.io/1amkaizen)
+---
+
+
 
 ### :fire: My Stats :
 [![GitHub Streak](https://github-readme-streak-stats-pied.vercel.app?user=1amkaizen&theme=dark&background=000000)](https://git.io/streak-stats)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=1amkaizen&show_icons=true&theme=transparent)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=1amkaizen&theme=radical)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=1amkaizen&theme=radical&utcOffset=8)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=1amkaizen&theme=radical)
+
+<h1 align="center"> 🐍 Snake Eating My Contribution 🐍 </h1>
+<img src="https://raw.githubusercontent.com/lironmiz/lironmiz/output/github-contribution-grid-snake.svg" alt="snake" height="80%" width="100%"/>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center">Copyright &copy; 2023-present <a href="https://github.com/1amkaizen" target="_blank">1amkaizen</a>
