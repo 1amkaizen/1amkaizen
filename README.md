@@ -62,11 +62,11 @@
 <div align="center" style="text-align:center">
     <a href="#">
         <img width="49%" src="https://github-readme-stats.vercel.app/api?username=1amkaizen&show_icons=true&theme=transparent&count_private=true"
-            alt="Josee9988's Github stats">
+            alt="1amkaizen's Github stats">
     </a>
     <a href="#">
         <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=1amkaizen&theme=transparent"
-            alt="Josee9988's Github commit streak">
+            alt="1amkaizen's Github commit streak">
     </a>  
 </div>
 
@@ -74,21 +74,14 @@
 <div align="center" style="text-align:center">
     <a href="#">
         <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=1amkaizen&theme=radical"
-            alt="Josee9988's Github stats">
+            alt="1amkaizen's Github stats">
     </a>
     <a href="#">
-        <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=1amkaizen&theme=radical&utcOffset=8" 
-            alt="Josee9988's Github commit streak">
+        <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=1amkaizen&theme=radical " 
+            alt="1amkaizen's Github commit streak">
     </a>
     
 </div>
 
 
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=1amkaizen&theme=radical)
-
-
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
-
-
-<table><tbody><tr><td><a href="https://octo-ring.com/"><img src="https://octo-ring.com/static/img/widget/top.png" width="99%" alt="Octo Ring logo" align="top"></a><br><a href="https://octo-ring.com/p/1amkaizen/prev"><img src="https://octo-ring.com/static/img/widget/prev.png" width="33%" alt="previous" align="top" title="previous profile"></a><a href="https://octo-ring.com/p/1amkaizen/random"><img src="https://octo-ring.com/static/img/widget/random.png" width="33%" alt="random" align="top" title="random profile"></a><a href="https://octo-ring.com/p/1amkaizen/next"><img src="https://octo-ring.com/static/img/widget/next.png" width="33%" alt="next" align="top" title="next profile"></a><br><a href="https://octo-ring.com/"><img src="https://octo-ring.com/static/img/widget/bottom.png" width="99%" alt="check out other GitHub profiles in the Octo Ring" align="top"></a></td></tr></tbody></table>
