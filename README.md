@@ -53,7 +53,7 @@
 
 ---
 
-### Badges
+### 🛡️ Badges 
 
 <a href="https://tryhackme.com/r/badges">
   <img src="https://assets.tryhackme.com/img/badges/owasptop10.svg" alt="TryHackMe Badge" width="80">
