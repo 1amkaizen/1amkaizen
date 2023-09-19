@@ -34,6 +34,7 @@
 <p align="center"> 
   <a href="https://www.buymeacoffee.com/1amkaiz3n"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="50" width="210" alt="1amkaizen" /></a>
 </p>
+
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
@@ -50,6 +51,22 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/gitlab/gitlab-original-wordmark.svg" title="Gitlab" **alt="Gitlab" width="40" height="40"/>
 </div>
 
+---
+
+
+<a href="https://tryhackme.com/r/badges">
+  <img src="https://assets.tryhackme.com/img/badges/owasptop10.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/metasploit.svg" alt="TryHackMe Badge" width="80">
+<img src="https://assets.tryhackme.com/img/badges/hackerofthemonth.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/streak1500.svg" alt="TryHackMe Badge" width="80">
+<img src="https://assets.tryhackme.com/img/badges/investigations_badge.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/hashcracker.svg" alt="TryHackMe Badge" width="80">
+   <img src="https://assets.tryhackme.com/img/badges/ohsint.svg" alt="TryHackMe Badge" width="80">
+   <img src="https://assets.tryhackme.com/img/badges/king.svg" alt="TryHackMe Badge" width="80">
+   <img src="https://assets.tryhackme.com/img/badges/windcorp_badge.svg" alt="TryHackMe Badge" width="80">
+   <img src="https://assets.tryhackme.com/img/badges/wireshark.svg" alt="TryHackMe Badge" width="80">
+   
+</a>
 
 ---
 ![GitHub metrics](https://metrics.lecoq.io/1amkaizen)
