@@ -1,6 +1,6 @@
 <!--![Header](./github-header-image.png)-->
 <div align="center">
-  <img src="https://media.giphy.com/media/nCQQGnf1Sg3aDfAK4P/giphy.gif" width="100px"/>
+  <img src="https://media.giphy.com/media/8Xmpiq58FVxkKwfOUF/giphy.gif" width="100px"/>
 </div>
 
 <div id="header" align="center">
