@@ -56,43 +56,43 @@
 ### 🛡️ Badges 
 
 <a href="https://tryhackme.com/r/badges">
-  <img src="https://assets.tryhackme.com/img/badges/owasptop10.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/owasptop10.svg" alt="TryHackMe Badge" width="50">
 </a>
 
 <a href="https://tryhackme.com/r/badges">
-  <img src="https://assets.tryhackme.com/img/badges/metasploit.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/metasploit.svg" alt="TryHackMe Badge" width="50">
 </a>
 
 <a href="https://tryhackme.com/r/badges">
-  <img src="https://assets.tryhackme.com/img/badges/hackerofthemonth.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/hackerofthemonth.svg" alt="TryHackMe Badge" width="50">
 </a>
 
 <a href="https://tryhackme.com/r/badges">
-  <img src="https://assets.tryhackme.com/img/badges/streak1500.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/streak1500.svg" alt="TryHackMe Badge" width="50">
 </a>
 
 <a href="https://tryhackme.com/r/badges">
-  <img src="https://assets.tryhackme.com/img/badges/investigations_badge.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/investigations_badge.svg" alt="TryHackMe Badge" width="50">
 </a>
 
 <a href="https://tryhackme.com/r/badges">
-  <img src="https://assets.tryhackme.com/img/badges/hashcracker.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/hashcracker.svg" alt="TryHackMe Badge" width="50">
 </a>
 
 <a href="https://tryhackme.com/r/badges">
-  <img src="https://assets.tryhackme.com/img/badges/ohsint.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/ohsint.svg" alt="TryHackMe Badge" width="50">
 </a>
 
 <a href="https://tryhackme.com/r/badges">
-  <img src="https://assets.tryhackme.com/img/badges/king.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/king.svg" alt="TryHackMe Badge" width="50">
 </a>
 
 <a href="https://tryhackme.com/r/badges">
-  <img src="https://assets.tryhackme.com/img/badges/windcorp_badge.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/windcorp_badge.svg" alt="TryHackMe Badge" width="50">
 </a>
 
 <a href="https://tryhackme.com/r/badges">
-  <img src="https://assets.tryhackme.com/img/badges/wireshark.svg" alt="TryHackMe Badge" width="80">
+  <img src="https://assets.tryhackme.com/img/badges/wireshark.svg" alt="TryHackMe Badge" width="50">
 </a>
 
 
