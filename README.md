@@ -1,15 +1,8 @@
-
-
-
+<!--![Header](./github-header-image.png)-->
 <div align="center">
   <img src="https://media.giphy.com/media/MAYZsYvGGEqryIAebN/giphy.gif" width="400px"/>
 </div>
-
-
-<!--![Header](./github-header-image.png)-->
-
 <div id="header" align="center">
-
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
 
