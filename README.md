@@ -1,9 +1,13 @@
 <!--![Header](./github-header-image.png)-->
 <div align="center">
-  <img src="https://media.giphy.com/media/MAYZsYvGGEqryIAebN/giphy.gif" width="400px"/>
+  <img src="https://media.giphy.com/media/nCQQGnf1Sg3aDfAK4P/giphy.gif" width="100px"/>
 </div>
+
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/WsWvFaKtzjrRPFvJxz/giphy.gif" width="100px"/>
+  <img src="https://media.giphy.com/media/lP8xu5t2DLGG045H8F/giphy.gif" width="100"/>
+<img src="https://media.giphy.com/media/xThta1wmw6DUBWgyXK/giphy.gif" width="100px"/>
+
 </div>
 
 <div id="badges" align="center">
