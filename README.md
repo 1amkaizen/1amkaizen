@@ -56,6 +56,7 @@
 
 ### 🛡️ Badges 
 
+<div align="center" style="text-align:center">
 <a href="https://tryhackme.com/r/badges">
   <img src="https://assets.tryhackme.com/img/badges/owasptop10.svg" alt="TryHackMe Badge" width="50">
 </a>
@@ -95,6 +96,7 @@
 <a href="https://tryhackme.com/r/badges">
   <img src="https://assets.tryhackme.com/img/badges/wireshark.svg" alt="TryHackMe Badge" width="50">
 </a>
+</div>
 
 
 ---
