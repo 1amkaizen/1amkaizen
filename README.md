@@ -97,11 +97,10 @@
 
 
 ---
+
 ![GitHub metrics](https://metrics.lecoq.io/1amkaizen)
+
 ---
-
-
-
 
 ### :fire: My Stats :
 <div align="center" style="text-align:center">
