@@ -96,7 +96,7 @@
 </div>
 
 
-![snake animation](https://github.com/1amkaizen/1amkaizen/blob/output/github-contribution-grid-snake2.svg)
+
 
 ---
 
