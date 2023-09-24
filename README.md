@@ -51,7 +51,7 @@
 
 ---
 
-### 🛡️ Badges 
+### 🛡️ TryHackMe Badges 
 
 <div align="center" style="text-align:center">
 <a href="https://tryhackme.com/r/badges">
