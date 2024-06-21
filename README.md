@@ -25,8 +25,10 @@
 <div align="center">
 <p><img src="https://www.codewars.com/users/1amkaizen/badges/large" alt="Codewars Stats Card"></p>
 </div>
+
 <p align="center"> 
-  <a href="https://www.buymeacoffee.com/1amkaiz3n"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="50" width="210" alt="1amkaizen" /></a>
+  <!--!<a href="https://www.buymeacoffee.com/1amkaiz3n"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="50" width="210" alt="1amkaizen" /></a>-->
+  <a href="https://trakteer.id/1amkaizen" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-1.png?date=18-11-2023" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>
 </p>
 
 ---
