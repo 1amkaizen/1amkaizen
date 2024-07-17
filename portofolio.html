@@ -27,6 +27,13 @@
       .card-title, .card-text {
         color: #00FF00;
       }
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 3px solid #00FF00;
+        object-fit: cover;
+      }
     </style>
   </head>
   <body>
@@ -53,7 +60,8 @@
     </nav>
 
     <div class="container">
-      <section id="about">
+      <section id="about" class="text-center">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic">
         <h2>About Me</h2>
         <p>Hello! I'm a hacker and a web developer with a passion for creating cool projects. Welcome to my portfolio.</p>
       </section>
@@ -66,6 +74,7 @@
               <div class="card-body">
                 <h5 class="card-title">Project 1</h5>
                 <p class="card-text">Description of project 1.</p>
+                <a href="https://github.com/username/project1" class="btn btn-outline-light">View on GitHub</a>
               </div>
             </div>
           </div>
@@ -74,6 +83,7 @@
               <div class="card-body">
                 <h5 class="card-title">Project 2</h5>
                 <p class="card-text">Description of project 2.</p>
+                <a href="https://github.com/username/project2" class="btn btn-outline-light">View on GitHub</a>
               </div>
             </div>
           </div>
@@ -82,6 +92,7 @@
               <div class="card-body">
                 <h5 class="card-title">Project 3</h5>
                 <p class="card-text">Description of project 3.</p>
+                <a href="https://github.com/username/project3" class="btn btn-outline-light">View on GitHub</a>
               </div>
             </div>
           </div>
