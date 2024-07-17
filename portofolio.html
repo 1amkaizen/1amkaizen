@@ -11,7 +11,6 @@
         background-color: #000;
         color: #00FF00;
         font-family: 'Courier New', Courier, monospace;
-        overflow-x: hidden; /* Prevent horizontal scroll */
       }
       .navbar {
         background-color: #222;
@@ -51,13 +50,6 @@
         background-color: #222;
         text-align: center;
       }
-      /* Additional styles for badges and stats */
-      .badge-item {
-        margin: 10px;
-      }
-      .stats-card {
-        margin-bottom: 20px;
-      }
     </style>
   </head>
   <body>
@@ -83,12 +75,12 @@
       </div>
     </nav>
 
-    <div class="container">
-      <section id="about" class="mt-4">
+    <div class="container text-center">
+      <section id="about">
         <img src="https://avatars.githubusercontent.com/u/99733941?s=96&v=4" alt="Profile Picture" class="profile-pic">
         <div align="center">
-          <p><img src="https://www.codewars.com/users/1amkaizen/badges/large" alt="Codewars Stats Card"></p>
-        </div>
+<p><img src="https://www.codewars.com/users/1amkaizen/badges/large" alt="Codewars Stats Card"></p>
+</div>
         <h2>About Me</h2>
         <p>Hello! I'm a hacker and a web developer with a passion for creating cool projects. Welcome to my portfolio.</p>
         
@@ -136,34 +128,34 @@
       <section id="badges" class="mt-5">
         <h2>🛡️ TryHackMe Badges</h2>
         <div class="d-flex flex-wrap justify-content-center">
-          <a href="https://tryhackme.com/r/badges" class="badge-item">
+          <a href="https://tryhackme.com/r/badges">
             <img src="https://assets.tryhackme.com/img/badges/owasptop10.svg" alt="TryHackMe Badge" width="50">
           </a>
-          <a href="https://tryhackme.com/r/badges" class="badge-item">
+          <a href="https://tryhackme.com/r/badges">
             <img src="https://assets.tryhackme.com/img/badges/metasploit.svg" alt="TryHackMe Badge" width="50">
           </a>
-          <a href="https://tryhackme.com/r/badges" class="badge-item">
+          <a href="https://tryhackme.com/r/badges">
             <img src="https://assets.tryhackme.com/img/badges/hackerofthemonth.svg" alt="TryHackMe Badge" width="50">
           </a>
-          <a href="https://tryhackme.com/r/badges" class="badge-item">
+          <a href="https://tryhackme.com/r/badges">
             <img src="https://assets.tryhackme.com/img/badges/streak1500.svg" alt="TryHackMe Badge" width="50">
           </a>
-          <a href="https://tryhackme.com/r/badges" class="badge-item">
+          <a href="https://tryhackme.com/r/badges">
             <img src="https://assets.tryhackme.com/img/badges/investigations_badge.svg" alt="TryHackMe Badge" width="50">
           </a>
-          <a href="https://tryhackme.com/r/badges" class="badge-item">
+          <a href="https://tryhackme.com/r/badges">
             <img src="https://assets.tryhackme.com/img/badges/hashcracker.svg" alt="TryHackMe Badge" width="50">
           </a>
-          <a href="https://tryhackme.com/r/badges" class="badge-item">
+          <a href="https://tryhackme.com/r/badges">
             <img src="https://assets.tryhackme.com/img/badges/ohsint.svg" alt="TryHackMe Badge" width="50">
           </a>
-          <a href="https://tryhackme.com/r/badges" class="badge-item">
+          <a href="https://tryhackme.com/r/badges">
             <img src="https://assets.tryhackme.com/img/badges/king.svg" alt="TryHackMe Badge" width="50">
           </a>
-          <a href="https://tryhackme.com/r/badges" class="badge-item">
+          <a href="https://tryhackme.com/r/badges">
             <img src="https://assets.tryhackme.com/img/badges/windcorp_badge.svg" alt="TryHackMe Badge" width="50">
           </a>
-          <a href="https://tryhackme.com/r/badges" class="badge-item">
+          <a href="https://tryhackme.com/r/badges">
             <img src="https://assets.tryhackme.com/img/badges/wireshark.svg" alt="TryHackMe Badge" width="50">
           </a>
         </div>
@@ -173,38 +165,52 @@
         <h2>🔥 My Stats</h2>
         <div class="row">
           <div class="col-md-6">
-            <div class="card
-              mb-4 stats-card">
+            <div class="card mb-4">
               <div class="card-body">
-                <h5 class="card-title">GitHub Stats</h5>
-                <p class="card-text">Check out my GitHub stats below:</p>
-                <a href="https://github.com/1amkaizen">
-                  <img src="https://github-readme-stats.vercel.app/api?username=1amkaizen&show_icons=true&theme=dark" alt="GitHub Stats" class="img-fluid">
+                <a href="#">
+                  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=1amkaizen&show_icons=true&theme=transparent&count_private=true" alt="1amkaizen's Github stats">
                 </a>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="card mb-4 stats-card">
+            <div class="card mb-4">
               <div class="card-body">
-                <h5 class="card-title">Top Languages</h5>
-                <p class="card-text">My most used programming languages:</p>
-                <a href="https://github.com/1amkaizen">
-                  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1amkaizen&layout=compact&theme=dark" alt="Top Languages" class="img-fluid">
+                <a href="#">
+                  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=1amkaizen&theme=transparent" alt="1amkaizen's Github commit streak">
+                </a>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <div class="card-body">
+                <a href="#">
+                  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1amkaizen&layout=compact&theme=transparent" alt="1amkaizen's most used languages">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <div class="card-body">
+                <a href="#">
+                  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=1amkaizen&theme=darkhub&column=4&margin-w=15&margin-h=15" alt="1amkaizen's GitHub trophy">
                 </a>
               </div>
             </div>
           </div>
         </div>
       </section>
+
     </div>
 
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <span class="text-muted">Copyright &copy; 2024 1amkaizen. All rights reserved.</span>
-      </div>
+    <footer class="footer">
+      <p>© 2024 Hacker Portfolio. All rights reserved.</p>
+      <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-WP3kqowhJHP2dZIv61GGvVXEJZwAR6X3rNXg1b8mbVJ3Tn+30QOY0H55P9zA2R2Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
+
