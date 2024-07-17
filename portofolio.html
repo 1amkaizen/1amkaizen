@@ -1,230 +1,210 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portofolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  <style>
-    body {
-      background-color: #000;
-      color: #00FF00;
-      font-family: 'Courier New', Courier, monospace;
-    }
-    .navbar {
-      background-color: #222;
-    }
-    .navbar-brand, .nav-link {
-      color: #00FF00 !important;
-    }
-    .container {
-      margin-top: 50px;
-    }
-    .card {
-      background-color: #111;
-      border: 1px solid #00FF00;
-    }
-    .card-title, .card-text {
-      color: #00FF00;
-    }
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      border: 3px solid #00FF00;
-      object-fit: cover;
-    }
-    .social-icons a {
-      color: #00FF00;
-      margin: 0 10px;
-      font-size: 1.5em;
-      transition: color 0.3s;
-    }
-    .social-icons a:hover {
-      color: #fff;
-    }
-    .footer {
-      margin-top: 50px;
-      padding: 20px 0;
-      background-color: #222;
-      text-align: center;
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: #000;
+        color: #00FF00;
+        font-family: 'Courier New', Courier, monospace;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+      }
+      .navbar {
+        background-color: #222;
+      }
+      .navbar-brand, .nav-link {
+        color: #00FF00 !important;
+      }
       .container {
-        margin-top: 20px;
+        margin-top: 50px;
+      }
+      .card {
+        background-color: #111;
+        border: 1px solid #00FF00;
+      }
+      .card-title, .card-text {
+        color: #00FF00;
       }
       .profile-pic {
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 3px solid #00FF00;
+        object-fit: cover;
       }
       .social-icons a {
-        font-size: 1.2em;
+        color: #00FF00;
+        margin: 0 10px;
+        font-size: 1.5em;
+        transition: color 0.3s;
+      }
+      .social-icons a:hover {
+        color: #fff;
       }
       .footer {
-        margin-top: 20px;
+        margin-top: 50px;
+        padding: 20px 0;
+        background-color: #222;
+        text-align: center;
       }
-    }
-  </style>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">1amkaizen</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+      /* Additional styles for badges and stats */
+      .badge-item {
+        margin: 10px;
+      }
+      .stats-card {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">1amkaizen</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <div class="container text-center">
-    <section id="about">
-      <img src="https://avatars.githubusercontent.com/u/99733941?s=96&v=4" alt="Profile Picture" class="profile-pic">
-      <div align="center">
-        <p><img src="https://www.codewars.com/users/1amkaizen/badges/large" alt="Codewars Stats Card"></p>
-      </div>
-      <h2>About Me</h2>
-      <p>Hello! I'm a hacker and a web developer with a passion for creating cool projects. Welcome to my portfolio.</p>
-      
-      <div class="social-icons">
-        <a href="https://github.com/1amkaizen" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/1amkaizen" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://linkedin.com/in/1amkaizen" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:1amkaizen@example.com"><i class="fas fa-envelope"></i></a>
-      </div>
-    </section>
+    <div class="container">
+      <section id="about" class="mt-4">
+        <img src="https://avatars.githubusercontent.com/u/99733941?s=96&v=4" alt="Profile Picture" class="profile-pic">
+        <div align="center">
+          <p><img src="https://www.codewars.com/users/1amkaizen/badges/large" alt="Codewars Stats Card"></p>
+        </div>
+        <h2>About Me</h2>
+        <p>Hello! I'm a hacker and a web developer with a passion for creating cool projects. Welcome to my portfolio.</p>
+        
+        <div class="social-icons">
+          <a href="https://github.com/1amkaizen" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/1amkaizen" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://linkedin.com/in/1amkaizen" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:1amkaizen@example.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </section>
 
-    <section id="projects" class="mt-5">
-      <h2>Projects</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Project 1</h5>
-              <p class="card-text">Description of project 1.</p>
-              <a href="https://github.com/username/project1" class="btn btn-outline-light">View on GitHub</a>
+      <section id="projects" class="mt-5">
+        <h2>Projects</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">Description of project 1.</p>
+                <a href="https://github.com/username/project1" class="btn btn-outline-light">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">Description of project 2.</p>
+                <a href="https://github.com/username/project2" class="btn btn-outline-light">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">Description of project 3.</p>
+                <a href="https://github.com/username/project3" class="btn btn-outline-light">View on GitHub</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Project 2</h5>
-              <p class="card-text">Description of project 2.</p>
-              <a href="https://github.com/username/project2" class="btn btn-outline-light">View on GitHub</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Project 3</h5>
-              <p class="card-text">Description of project 3.</p>
-              <a href="https://github.com/username/project3" class="btn btn-outline-light">View on GitHub</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="badges" class="mt-5">
-      <h2>🛡️ TryHackMe Badges</h2>
-      <div class="d-flex flex-wrap justify-content-center">
-        <a href="https://tryhackme.com/r/badges">
-          <img src="https://assets.tryhackme.com/img/badges/owasptop10.svg" alt="TryHackMe Badge" width="50">
-        </a>
-        <a href="https://tryhackme.com/r/badges">
-          <img src="https://assets.tryhackme.com/img/badges/metasploit.svg" alt="TryHackMe Badge" width="50">
-        </a>
-        <a href="https://tryhackme.com/r/badges">
-          <img src="https://assets.tryhackme.com/img/badges/hackerofthemonth.svg" alt="TryHackMe Badge" width="50">
-        </a>
-        <a href="https://tryhackme.com/r/badges">
-          <img src="https://assets.tryhackme.com/img/badges/streak1500.svg" alt="TryHackMe Badge" width="50">
-        </a>
-        <a href="https://tryhackme.com/r/badges">
-          <img src="https://assets.tryhackme.com/img/badges/investigations_badge.svg" alt="TryHackMe Badge" width="50">
-        </a>
-        <a href="https://tryhackme.com/r/badges">
-          <img src="https://assets.tryhackme.com/img/badges/hashcracker.svg" alt="TryHackMe Badge" width="50">
-        </a>
-        <a href="https://tryhackme.com/r/badges">
-          <img src="https://assets.tryhackme.com/img/badges/ohsint.svg" alt="TryHackMe Badge" width="50">
-        </a>
-        <a href="https://tryhackme.com/r/badges">
-          <img src="https://assets.tryhackme.com/img/badges/king.svg" alt="TryHackMe Badge" width="50">
-        </a>
-        <a href="https://tryhackme.com/r/badges">
-          <img src="https://assets.tryhackme.com/img/badges/windcorp_badge.svg" alt="TryHackMe Badge" width="50">
-        </a>
-        <a href="https://tryhackme.com/r/badges">
-          <img src="https://assets.tryhackme.com/img/badges/wireshark.svg" alt="TryHackMe Badge" width="50">
-        </a>
-      </div>
-    </section>
+      <section id="badges" class="mt-5">
+        <h2>🛡️ TryHackMe Badges</h2>
+        <div class="d-flex flex-wrap justify-content-center">
+          <a href="https://tryhackme.com/r/badges" class="badge-item">
+            <img src="https://assets.tryhackme.com/img/badges/owasptop10.svg" alt="TryHackMe Badge" width="50">
+          </a>
+          <a href="https://tryhackme.com/r/badges" class="badge-item">
+            <img src="https://assets.tryhackme.com/img/badges/metasploit.svg" alt="TryHackMe Badge" width="50">
+          </a>
+          <a href="https://tryhackme.com/r/badges" class="badge-item">
+            <img src="https://assets.tryhackme.com/img/badges/hackerofthemonth.svg" alt="TryHackMe Badge" width="50">
+          </a>
+          <a href="https://tryhackme.com/r/badges" class="badge-item">
+            <img src="https://assets.tryhackme.com/img/badges/streak1500.svg" alt="TryHackMe Badge" width="50">
+          </a>
+          <a href="https://tryhackme.com/r/badges" class="badge-item">
+            <img src="https://assets.tryhackme.com/img/badges/investigations_badge.svg" alt="TryHackMe Badge" width="50">
+          </a>
+          <a href="https://tryhackme.com/r/badges" class="badge-item">
+            <img src="https://assets.tryhackme.com/img/badges/hashcracker.svg" alt="TryHackMe Badge" width="50">
+          </a>
+          <a href="https://tryhackme.com/r/badges" class="badge-item">
+            <img src="https://assets.tryhackme.com/img/badges/ohsint.svg" alt="TryHackMe Badge" width="50">
+          </a>
+          <a href="https://tryhackme.com/r/badges" class="badge-item">
+            <img src="https://assets.tryhackme.com/img/badges/king.svg" alt="TryHackMe Badge" width="50">
+          </a>
+          <a href="https://tryhackme.com/r/badges" class="badge-item">
+            <img src="https://assets.tryhackme.com/img/badges/windcorp_badge.svg" alt="TryHackMe Badge" width="50">
+          </a>
+          <a href="https://tryhackme.com/r/badges" class="badge-item">
+            <img src="https://assets.tryhackme.com/img/badges/wireshark.svg" alt="TryHackMe Badge" width="50">
+          </a>
+        </div>
+      </section>
 
-    <section id="stats" class="mt-5">
-      <h2>🔥 My Stats</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card
-            mb-4">
+      <section id="stats" class="mt-5">
+        <h2>🔥 My Stats</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card
+              mb-4 stats-card">
               <div class="card-body">
                 <h5 class="card-title">GitHub Stats</h5>
-                <p class="card-text">My GitHub stats and contributions.</p>
-                <a href="https://github.com/username" class="btn btn-outline-light">View on GitHub</a>
+                <p class="card-text">Check out my GitHub stats below:</p>
+                <a href="https://github.com/1amkaizen">
+                  <img src="https://github-readme-stats.vercel.app/api?username=1amkaizen&show_icons=true&theme=dark" alt="GitHub Stats" class="img-fluid">
+                </a>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4 stats-card">
               <div class="card-body">
-                <h5 class="card-title">CodeWars Stats</h5>
-                <p class="card-text">My CodeWars stats and challenges.</p>
-                <a href="https://www.codewars.com/users/username" class="btn btn-outline-light">View on CodeWars</a>
+                <h5 class="card-title">Top Languages</h5>
+                <p class="card-text">My most used programming languages:</p>
+                <a href="https://github.com/1amkaizen">
+                  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1amkaizen&layout=compact&theme=dark" alt="Top Languages" class="img-fluid">
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section id="contact" class="mt-5">
-      <h2>Contact Me</h2>
-      <p>Feel free to reach out to me via email or social media!</p>
-      
-      <div class="social-icons">
-        <a href="https://github.com/1amkaizen" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/1amkaizen" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://linkedin.com/in/1amkaizen" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:1amkaizen@example.com"><i class="fas fa-envelope"></i></a>
-      </div>
-    </section>
-  </div>
-
-  <footer class="footer mt-5">
-    <div class="container">
-      <p>&copy; 2024 1amkaizen. All rights reserved.</p>
+      </section>
     </div>
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-Job8aB9S6Vq0W3vm+tFmUjCA1G5llR4A3FMIGB3PfQKK3TKgRTrvW8zKgqI8JzEE" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-Zb4HQgyaRvDfz5FBBn3XyZbQIk9zpPPFBu1d0ETk8QNIz4+KfiCZpnjF25b0xhV6" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</body>
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">Copyright &copy; 2024 1amkaizen. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-WP3kqowhJHP2dZIv61GGvVXEJZwAR6X3rNXg1b8mbVJ3Tn+30QOY0H55P9zA2R2Q" crossorigin="anonymous"></script>
+  </body>
 </html>
