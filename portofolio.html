@@ -205,10 +205,32 @@
 
     </div>
 
+     <section id="contact" class="mt-5">
+        <h2>Contact Me</h2>
+        <form action="mailto:1amkaizen@example.com" method="post" enctype="text/plain">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline-light">Send Message</button>
+        </form>
+      </section>
+    </div>
+
     <footer class="footer">
-      <p>© 2024 Hacker Portfolio. All rights reserved.</p>
-      <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
+      <div class="container">
+        <span class="text-muted">© 2024 1amkaizen. All rights reserved.</span>
+      </div>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
