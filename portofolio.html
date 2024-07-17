@@ -11,6 +11,7 @@
         background-color: #000;
         color: #00FF00;
         font-family: 'Courier New', Courier, monospace;
+        overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
       }
       .navbar {
         background-color: #222;
@@ -79,8 +80,8 @@
       <section id="about">
         <img src="https://avatars.githubusercontent.com/u/99733941?s=96&v=4" alt="Profile Picture" class="profile-pic">
         <div align="center">
-<p><img src="https://www.codewars.com/users/1amkaizen/badges/large" alt="Codewars Stats Card"></p>
-</div>
+          <p><img src="https://www.codewars.com/users/1amkaizen/badges/large" alt="Codewars Stats Card"></p>
+        </div>
         <h2>About Me</h2>
         <p>Hello! I'm a hacker and a web developer with a passion for creating cool projects. Welcome to my portfolio.</p>
         
@@ -169,6 +170,9 @@
               <div class="card-body">
                 <a href="#">
                   <img width="100%" src="https://github-readme-stats.vercel.app/api?username=1amkaizen&show_icons=true&theme=transparent&count_private=true" alt="1amkaizen's Github stats">
+  </a>
+  <a href="#">
+                  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=1amkaizen&show_icons=true&theme=transparent&count_private=true" alt="1amkaizen's Github stats">
                 </a>
               </div>
             </div>
@@ -177,25 +181,7 @@
             <div class="card mb-4">
               <div class="card-body">
                 <a href="#">
-                  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=1amkaizen&theme=transparent" alt="1amkaizen's Github commit streak">
-                </a>
-                </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card mb-4">
-              <div class="card-body">
-                <a href="#">
-                  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1amkaizen&layout=compact&theme=transparent" alt="1amkaizen's most used languages">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card mb-4">
-              <div class="card-body">
-                <a href="#">
-                  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=1amkaizen&theme=darkhub&column=4&margin-w=15&margin-h=15" alt="1amkaizen's GitHub trophy">
+                  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=1amkaizen&theme=dark" alt="1amkaizen's Github streak">
                 </a>
               </div>
             </div>
@@ -203,14 +189,34 @@
         </div>
       </section>
 
+      <section id="contact" class="mt-5">
+        <h2>Contact Me</h2>
+        <form action="mailto:1amkaizen@example.com" method="post" enctype="text/plain">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline-light">Send Message</button>
+        </form>
+      </section>
     </div>
 
     <footer class="footer">
-      <p>© 2024 Hacker Portfolio. All rights reserved.</p>
-      <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
+      <div class="container">
+        <span class="text-muted">© 2024 1amkaizen. All rights reserved.</span>
+      </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- JavaScript and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-dQRoCWF/3g/A4Uiv8Jj8Skeo8KU8SG+uBD/ABX+IyXkzv/mKwKl4YlCEz4ILjsBmG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-r5aaCgpCrl1r2fQkNSt5mkFgZO+7PKvIfWPnziyV+KuL2w/0D2sKoA2UteF4Uijc" crossorigin="anonymous"></script>
   </body>
 </html>
-
