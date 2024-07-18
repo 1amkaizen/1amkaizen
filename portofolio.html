@@ -61,6 +61,19 @@
         max-width: 100%;
         height: auto;
       }
+   .card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link:hover .card {
+  border-color: #007bff;
+  transition: border-color 0.3s;
+}
+
+.card-title i {
+  margin-right: 10px;
+}
  </style>
   </head>
   <body>
@@ -182,38 +195,41 @@
         </div>
       </section>
 
-    <section id="projects" class="mt-5">
-        <h2>Projects</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4">
-              <div class="card-body">
-                <h5 class="card-title">BookFinderBot</h5>
-                <p class="card-text">BookFinderBot adalah bot pencari Ebook & Buku yang dibangun menggunakan Go, Fiber, dan Telegram Bot API. Bot ini memungkinkan pengguna untuk mencari Ebook dan Buku berdasarkan judul atau topik tertentu, serta memberikan link ulasan produk yang diminta.</p>
-                <a href="https://github.com/1amkaizen/BookFinderBot-webhook" class="btn btn-outline-light">View on GitHub</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4">
-              <div class="card-body">
-                <h5 class="card-title">Affiliate Website</h5>
-                <p class="card-text"> Website Django untuk mempromosikan produk affiliasi.</p>
-                <a href="https://github.com/1amkaizen/affiliate-website" class="btn btn-outline-light">View on GitHub</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4">
-              <div class="card-body">
-                <h5 class="card-title"> Products Scrape Gramedia</h5>
-                <p class="card-text"> Tools untuk melakukan scraping data produk dari situs web Gramedia Affiliate. Anda dapat menggunakannya untuk mengumpulkan informasi produk seperti judul, harga, deskripsi, dan lain-lain.</p>
-                <a href="https://github.com/1amkaizen/product-scrap-gramedia" class="btn btn-outline-light">View on GitHub</a>
-              </div>
-            </div>
+<section id="projects" class="mt-5">
+  <h2>Projects</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://github.com/1amkaizen/BookFinderBot-webhook" class="card-link">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-book-open"></i> BookFinderBot</h5>
+            <p class="card-text">BookFinderBot adalah bot pencari Ebook & Buku yang dibangun menggunakan Go, Fiber, dan Telegram Bot API. Bot ini memungkinkan pengguna untuk mencari Ebook dan Buku berdasarkan judul atau topik tertentu, serta memberikan link ulasan produk yang diminta.</p>
           </div>
         </div>
-      </section>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://github.com/1amkaizen/affiliate-website" class="card-link">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-globe"></i> Affiliate Website</h5>
+            <p class="card-text">Website Django untuk mempromosikan produk affiliasi.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://github.com/1amkaizen/product-scrap-gramedia" class="card-link">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-tools"></i> Products Scrape Gramedia</h5>
+            <p class="card-text">Tools untuk melakukan scraping data produk dari situs web Gramedia Affiliate. Anda dapat menggunakannya untuk mengumpulkan informasi produk seperti judul, harga, deskripsi, dan lain-lain.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
 
 
   <section id="contact" class="mt-5">
