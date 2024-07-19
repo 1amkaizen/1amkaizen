@@ -6,7 +6,109 @@
     <title>Portofolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/a9b2082fbc.js" crossorigin="anonymous"></script>
  <style>
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.social-icons ul{
+  justify-content: center;
+    position: relative;
+    display:flex;
+    
+    flex-direction: row;
+    transform-style: preserve-3d;
+}
+
+.social-icons ul li{
+    position: relative;
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    margin: 1px 0px;
+}
+.social-icons ul li::after{
+    content: '';
+    position: absolute;
+    left:-5px;
+    bottom: 0px;
+    width: 5px;
+    height: 100%;
+    background: #3f3f3f;
+    transform-origin: right;
+    transform: skewY(-15deg);
+}
+
+.social-icons ul li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background: #303030;
+    color: #9452ff77;
+    font-size: 30px !important;
+
+}
+
+.social-icons ul li:hover span{
+    z-index: 10;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+    color: #fff;
+    box-shadow: -1px 1px 1px #f1f1f17e;
+}
+.social-icons ul li:hover span:nth-child(1){
+    box-shadow: 0px 0px 0px !important;
+    background: #333 !important;
+ }
+
+.social-icons ul li:hover span:nth-child(2){
+    transform: translate(5px, -3px);
+    opacity: 0.2;
+}
+.social-icons ul li:hover span:nth-child(3){
+    transform: translate(10px, -6px);
+    opacity: 0.4;
+
+}
+.social-icons ul li:hover span:nth-child(4){
+    transform:translate(15px, -9px);
+    opacity: 0.6;
+
+}
+.social-icons ul li:hover span:nth-child(5){
+    transform:translate(20px, -12px);
+    opacity: 0.8;
+
+}
+.social-icons ul li:hover span:nth-child(6){
+    transform:translate(25px, -15px);
+    opacity: 1;
+}
+
+.social-icons ul li:nth-child(1):hover span{
+    background: rgb(73, 156, 124);
+}
+
+.social-icons ul li:nth-child(2):hover span{
+    background: rgb(89, 104, 134);
+}
+
+.social-icons ul li:nth-child(3):hover span{
+    background: rgb(114, 54, 163);
+}
+
+.social-icons ul li:nth-child(4):hover span{
+    background: rgb(38, 94, 206);
+}
       body {
         background-color: #000;
         color: #00FF00;
@@ -36,15 +138,7 @@
         border: 3px solid #00FF00;
         object-fit: cover;
       }
-      .social-icons a {
-        color: #00FF00;
-        margin: 0 10px;
-        font-size: 1.5em;
-        transition: color 0.3s;
-      }
-      .social-icons a:hover {
-        color: #fff;
-      }
+
       .footer {
         margin-top: 50px;
         padding: 20px 0;
@@ -184,11 +278,46 @@
           <div id="terminalText" class="terminal-text"></div>
           <span class="typing-cursor"></span>
         </div>
-        <div class="social-icons">
-          <a href="https://github.com/1amkaizen" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://twitter.com/1amkaizen" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.linkedin.com/in/zaenal-arifin-256635312/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="mailto:1amkaiz3n@gmail.com"><i class="fas fa-envelope"></i></a>
+        <div class="social-icons ">
+          
+     
+    
+
+    <ul><li><a href="https://www.linkedin.com/in/zaenal-arifin-256635312/">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="fa fa-linkedin"></span>
+    </a></li>
+    <li><a href="https://github.com/1amkaizen">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="fa fa-github"></span>
+    </a></li>
+    <li><a href="mailto:1amkaiz3n@gmail.com">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="fa fa-envelope"></span>
+    </a></li>
+    <li><a href="https://twitter.com/1amkaizen">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="fa fa-twitter"></span>
+    </a></li>
+    </ul>
+
+
         </div>
         </section>
 
@@ -254,7 +383,7 @@
             <div class="card mb-4">
               <div class="card-body">
                 <a href="#">
-                  <img width="100%" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=1amkaizen&theme=radical" alt="1amkaizen's most used languages">
+                  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1amkaizen&layout=compact&theme=transparent" alt="1amkaizen's most used languages">
                 </a>
               </div>
             </div>
@@ -263,7 +392,7 @@
             <div class="card mb-4">
               <div class="card-body">
                 <a href="#">
-                  <img width="100%" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=1amkaizen&theme=radical" alt="1amkaizen's GitHub trophy">
+                  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=1amkaizen&theme=darkhub&column=4&margin-w=15&margin-h=15" alt="1amkaizen's GitHub trophy">
                 </a>
               </div>
             </div>
