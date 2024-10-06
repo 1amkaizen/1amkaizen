@@ -29,6 +29,7 @@
 <p align="center"> 
   <!--!<a href="https://www.buymeacoffee.com/1amkaiz3n"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="50" width="210" alt="1amkaizen" /></a>-->
   <a href="https://trakteer.id/1amkaizen" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-1.png?date=18-11-2023" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>
+  <a href="https://www.producthunt.com/posts/building-a-bot-platform-with-django?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-building&#0045;a&#0045;bot&#0045;platform&#0045;with&#0045;django" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=494430&theme=dark" alt="Building&#0032;a&#0032;Bot&#0032;Platform&#0032;With&#0032;Django - A&#0032;step&#0045;by&#0045;step&#0032;guide&#0032;to&#0032;build&#0032;bot&#0032;platform&#0032;with&#0032;Django | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 </p>
 
 ---
