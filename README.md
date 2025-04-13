@@ -95,7 +95,11 @@
 </a>
 </div>
 
+### 🏆 GitHub Trophy :
 
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=1amkaizen&theme=radical" />
+</div>
 
 ### :fire: My Stats :
 
